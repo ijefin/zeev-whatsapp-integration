@@ -31,7 +31,7 @@ class Sender {
       .catch((error) => console.error(error));
   }
 
-  private sendMessage(contactNumber: string, message: string) {
+  public sendMessage(contactNumber: string, message: string) {
     this.client
       .sendText(contactNumber, message)
       .then((response) => {

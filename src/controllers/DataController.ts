@@ -14,8 +14,9 @@ export default class DataController {
 
     const sendZeev = await service.execute(title, userId);
 
-    return res
-      .status(201)
-      .json({ message: "Zeev enviado com sucesso!", sendZeev });
+    // return res
+    //   .status(201)
+    //   .json({ message: "Zeev enviado com sucesso!", sendZeev });
+    return console.log(sendZeev);
   };
 }

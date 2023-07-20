@@ -4,13 +4,18 @@ import DataController from "./src/controllers/DataController";
 
 const routes = Router();
 
-// var corsOptions = {
-//   origin: "http://localhost:3000",
-//   optionsSuccessStatus: 200,
-// };
+const allowedOrigins = [
+  "https://terrasabpms.zeev.it",
+  "https://localhost:3000",
+];
 
-// //allowing cors origin
-// routes.use(cors(corsOptions));
+var corsOptions = {
+  origin: allowedOrigins,
+  optionsSuccessStatus: 200,
+};
+
+//allowing cors origin
+routes.use(cors(corsOptions));
 
 routes.post("/new-zeev", new DataController().sendZeev);
 // routes.post("/new-task");

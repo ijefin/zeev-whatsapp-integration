@@ -1,4 +1,5 @@
 import { Request, Response } from "express";
+import { ReceiveNewZeev } from "../services/SendZeevService";
 
 export default class DataController {
   sendZeev = async (req: Request, res: Response) => {
@@ -7,9 +8,11 @@ export default class DataController {
       userId: number;
     }
 
+    const service = new ReceiveNewZeev();
+
     const { title, userId }: data = req.body;
 
-    const sendZeev = {};
+    const sendZeev = await service.execute(title, userId);
 
     return res
       .status(201)

@@ -1,13 +1,10 @@
-import Sender from "../Sender";
+export class ReceiveNewZeev {
+  async execute(title: string, userId: number) {
+    const sendZeev = {
+      title,
+      userId,
+    };
 
-export class SendNewZeev {
-  async execute({ title, userId }) {
-    const repository = new TaskManager();
-
-    const newTask = await repository.createNewTask(name, description);
-
-    await taskRepository.save(newTask);
-
-    return newTask;
+    return sendZeev;
   }
 }

@@ -1,10 +1,9 @@
+
 export class ReceiveNewZeev {
   async execute(title: string, userId: number) {
-    const sendZeev = {
-      title,
-      userId,
-    };
+    const teste = { title, userId };
 
-    return sendZeev;
+
+    return teste;
   }
 }

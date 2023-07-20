@@ -7,39 +7,26 @@ class Sender {
     this.initialize();
   }
 
-  private initialize() {
-    const qrCodeCallback = (base64Qrimg: string) => {
-      console.log("QR Code:", base64Qrimg);
+  async sendMessage(to: string, body: string) {
+    await this.client.sendText(to, body);
+  }
+
+  async initialize() {
+    const qr = (base64QrImg: string) => {
+      console.log("QR CODE", base64QrImg);
     };
 
-    const statusCallback = (statusSession: string) => {
-      console.log("Status:", statusSession);
+    const status = (statusSession: string) => {
+      console.log("Status", statusSession);
     };
 
     const start = (client: Whatsapp) => {
       this.client = client;
-
-      // Enviar uma mensagem
-      // this.sendMessage(
-      //   "5531993678691@c.us",
-      //   "Olá, isso é uma mensagem de teste via integração!"
-      // );
     };
 
-    create("sessionName", qrCodeCallback, statusCallback)
+    create("Zeev Notificator", qr, status)
       .then((client) => start(client))
       .catch((error) => console.error(error));
-  }
-
-  public sendMessage(contactNumber: string, message: string) {
-    this.client
-      .sendText(contactNumber, message)
-      .then((response) => {
-        console.log("Mensagem enviada:", response);
-      })
-      .catch((error) => {
-        console.error("Erro ao enviar mensagem:", error);
-      });
   }
 }
 

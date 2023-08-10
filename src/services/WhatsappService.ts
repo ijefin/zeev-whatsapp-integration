@@ -9,7 +9,7 @@ export default class WhatsappService {
 
   async sendText(to: string, body: string) {
     //553192310461@c.us
-    this.client.sendText(to, body);
+    await this.client.sendText(to, body);
   }
 
   private initialize() {
@@ -24,10 +24,10 @@ export default class WhatsappService {
     const start = (client: Whatsapp) => {
       this.client = client;
 
-      this.sendText(
-        "553192310461@c.us",
-        "Olá Roberto! O código de confirmação é: *5812475124*"
-      );
+      // this.sendText(
+      //   "553192310461@c.us",
+      //   "Olá Roberto! O código de confirmação é: *5812475124*"
+      // );
     };
 
     create("Zeev Notificator", qr, status)

@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
-import { ReceiveNewZeev } from "../services/SendZeevService";
+import { ReceiveZeevDataService } from "../services/ReceiveZeevDataService";
+import { SendMessage } from "../services/SendMessageService";
 
 export default class DataController {
   sendZeev = async (req: Request, res: Response) => {
@@ -8,14 +9,17 @@ export default class DataController {
       userId: number;
     }
 
-    const service = new ReceiveNewZeev();
+    const service = new ReceiveZeevDataService();
 
     const { title, userId }: data = req.body;
 
     const zeevData = await service.execute(title, userId);
 
+    try {
+    } catch (error) {}
+
     return res
       .status(201)
-      .json({ message: "Zeev enviado com sucesso!", zeevData });
+      .json({ message: "Zeev Data enviado com sucesso!", zeevData });
   };
 }

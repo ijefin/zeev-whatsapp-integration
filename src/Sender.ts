@@ -3,10 +3,6 @@ import { create, Whatsapp } from "venom-bot";
 class Sender {
   private client!: Whatsapp;
 
-  constructor() {
-    this.initialize();
-  }
-
   async sendMessage(to: string, body: string) {
     await this.client.sendText(to, body);
   }

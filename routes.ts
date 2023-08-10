@@ -19,7 +19,7 @@ var corsOptions = {
 routes.use(cors(corsOptions));
 
 routes.post("/new-zeev", new DataController().sendZeev);
-routes.post("/new-zeev", new DataController().sendZeev);
+routes.post("/send", new DataController().sendZeev);
 // routes.post("/new-task");
 // routes.put("/update-task/:id");
 // routes.delete("/delete-task/:id");

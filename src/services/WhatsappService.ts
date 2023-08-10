@@ -25,8 +25,8 @@ export default class WhatsappService {
       this.client = client;
 
       this.sendText(
-        "553193678691@c.us",
-        "Olá Roberto! O código de confirmação é: 581247"
+        "553192310461@c.us",
+        "Olá Roberto! O código de confirmação é: *5812475124*"
       );
     };
 

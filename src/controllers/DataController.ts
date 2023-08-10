@@ -10,13 +10,17 @@ export default class DataController {
     }
 
     const service = new ReceiveZeevDataService();
+    const sendService = new SendMessage();
 
     const { title, userId }: data = req.body;
 
     const zeevData = await service.execute(title, userId);
 
     try {
-    } catch (error) {}
+      sendService.execute(title, userId);
+    } catch (error) {
+      console.log("Consegui não..");
+    }
 
     return res
       .status(201)

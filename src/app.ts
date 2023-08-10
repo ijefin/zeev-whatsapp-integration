@@ -1,16 +1,15 @@
-import express, { Request, Response } from "express";
+import express from "express";
 import routes from "../routes";
-import Sender from "./Sender";
+import WhatsappService from "./services/WhatsappService";
+
+const sender = new WhatsappService();
 
 const app = express();
 const port = 3000;
 
-const sender = new Sender();
+app.use(express.json());
+app.use(routes);
 
-sender.initialize().then(() => {
-  app.use(express.json());
-  app.use(routes);
-  app.listen(port, () => {
-    console.log(`Listening on port ${port}`);
-  });
+app.listen(port, () => {
+  console.log(`App listening at http://localhost:${port}`);
 });

@@ -1,9 +1,7 @@
 export class ReceiveZeevDataService {
   async execute(title: string, userId: number) {
-    const teste = { title, userId };
+    const zeevData = { title, userId };
 
-    console.log(title, userId);
-
-    return teste;
+    return zeevData;
   }
 }

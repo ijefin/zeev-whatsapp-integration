@@ -1,3 +1,14 @@
-2023/08/10-16:27:01.037 2494 Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/10-16:27:01.038 2494 Recovering log #728
-2023/08/10-16:27:01.102 2494 Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000728.log 
+2023/08/10-17:22:52.755 2390 Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/10-17:22:52.756 2390 Recovering log #865
+2023/08/10-17:22:52.828 2390 Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000865.log 
+2023/08/10-17:23:15.411 2390 Level-0 table #894: started
+2023/08/10-17:23:15.475 2390 Level-0 table #894: 1244180 bytes OK
+2023/08/10-17:23:15.478 2390 Delete type=0 #865
+2023/08/10-17:23:33.309 2834 Compacting 1@0 + 1@1 files
+2023/08/10-17:23:33.363 2834 Generated table #895@0: 22108 keys, 481181 bytes
+2023/08/10-17:23:33.369 2834 Generated table #896@0: 796 keys, 49254 bytes
+2023/08/10-17:23:33.371 2834 Generated table #897@0: 290 keys, 22125 bytes
+2023/08/10-17:23:33.371 2834 Compacted 1@0 + 1@1 files => 552560 bytes
+2023/08/10-17:23:33.372 2834 compacted to: files[ 0 3 27 0 0 0 0 ]
+2023/08/10-17:23:33.372 2834 Delete type=2 #869
+2023/08/10-17:23:33.372 2834 Delete type=2 #894

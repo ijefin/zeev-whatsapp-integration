@@ -1,18 +1,26 @@
 import { Request, Response } from "express";
-import { ReceiveZeevDataService } from "../services/ReceiveZeevDataService";
+import WhatsappService from "../services/WhatsappService";
 
-export default class DataController {
-  sendZeevData = async (req: Request, res: Response) => {
-    const service = new ReceiveZeevDataService();
+class MessageController {
+  private sender: WhatsappService;
 
-    const { title, userId } = req.body;
+  constructor(sender: WhatsappService) {
+    this.sender = sender;
+  }
 
-    const data = await service.execute(title, userId);
-
+  newMessage = async (req: Request, res: Response) => {
     try {
-      return res.status(201).json({ message: "Enviado com sucesso!" });
-    } catch {
-      console.log(res.status(501).json({ message: data }));
+      const { title, userId } = req.body;
+      const message = `${title} *${userId}*`;
+
+      await this.sender.sendText("553188253228@c.us", message);
+
+      return res.status(200).json({ message: "Enviado com sucesso!" });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ status: "error", message: error });
     }
   };
 }
+
+export default MessageController;

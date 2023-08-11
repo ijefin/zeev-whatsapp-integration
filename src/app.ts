@@ -13,14 +13,14 @@ app.use(express.urlencoded({ extended: false }));
 
 app.get("/status", (req: Request, res: Response) => {});
 
-// app.post("/new-message", async (req: Request, res: Response) => {
-//   const { title, userId } = req.body;
-//   const message = `${title} *${userId}*`;
+app.post("/new-message", async (req: Request, res: Response) => {
+  const { title, userId } = req.body;
+  const message = `${title} *${userId}*`;
 
-//   await sender.sendText("553188253228@c.us", message).then(() => {
-//     console.log("Enviado com sucesso!");
-//   });
-// });
+  await sender.sendText("553188253228@c.us", message).then(() => {
+    console.log("Enviado com sucesso!");
+  });
+});
 
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);

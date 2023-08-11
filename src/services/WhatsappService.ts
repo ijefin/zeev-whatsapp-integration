@@ -24,10 +24,10 @@ export default class WhatsappService {
     const start = (client: Whatsapp) => {
       this.client = client;
  
-      this.sendText(
-        "553192310461@c.us",
-        "Olá Roberto! O código de confirmação é: *512455*"
-      );
+      // this.sendText(
+      //   "553192310461@c.us",
+      //   "Olá Roberto! O código de confirmação é: *512455*"
+      // );
     };
 
     create("Zeev Notificator", qr, status)

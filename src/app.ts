@@ -1,5 +1,4 @@
 import express, { Request, Response } from "express";
-import routes from "../routes";
 import WhatsappService from "./services/WhatsappService";
 
 const sender = new WhatsappService();
@@ -9,17 +8,22 @@ const port = 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(routes);
+// app.use(routes);
 
 app.get("/status", (req: Request, res: Response) => {});
 
 app.post("/new-message", async (req: Request, res: Response) => {
-  const { title, userId } = req.body;
-  const message = `${title} *${userId}*`;
+  try {
+    const { title, userId } = req.body;
+    const message = `${title} *${userId}*`;
 
-  await sender.sendText("553188253228@c.us", message).then(() => {
-    console.log("Enviado com sucesso!");
-  });
+    await sender.sendText("553188253228@c.us", message);
+
+    return res.status(200).json({ message: "Enviado com sucesso!" });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ status: "error", message: error });
+  }
 });
 
 app.listen(port, () => {

@@ -1,14 +1,19 @@
-2023/08/10-17:22:52.755 2390 Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/10-17:22:52.756 2390 Recovering log #865
-2023/08/10-17:22:52.828 2390 Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000865.log 
-2023/08/10-17:23:15.411 2390 Level-0 table #894: started
-2023/08/10-17:23:15.475 2390 Level-0 table #894: 1244180 bytes OK
-2023/08/10-17:23:15.478 2390 Delete type=0 #865
-2023/08/10-17:23:33.309 2834 Compacting 1@0 + 1@1 files
-2023/08/10-17:23:33.363 2834 Generated table #895@0: 22108 keys, 481181 bytes
-2023/08/10-17:23:33.369 2834 Generated table #896@0: 796 keys, 49254 bytes
-2023/08/10-17:23:33.371 2834 Generated table #897@0: 290 keys, 22125 bytes
-2023/08/10-17:23:33.371 2834 Compacted 1@0 + 1@1 files => 552560 bytes
-2023/08/10-17:23:33.372 2834 compacted to: files[ 0 3 27 0 0 0 0 ]
-2023/08/10-17:23:33.372 2834 Delete type=2 #869
-2023/08/10-17:23:33.372 2834 Delete type=2 #894
+2023/08/11-15:55:27.643 920 Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/11-15:55:27.643 920 Recovering log #610
+2023/08/11-15:55:27.667 920 Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000610.log 
+2023/08/11-15:55:29.917 920 Compacting 1@1 + 6@2 files
+2023/08/11-15:55:30.107 920 Generated table #628@1: 46638 keys, 2219244 bytes
+2023/08/11-15:55:30.208 920 Generated table #629@1: 2745 keys, 2160688 bytes
+2023/08/11-15:55:30.271 920 Generated table #630@1: 2730 keys, 2163171 bytes
+2023/08/11-15:55:30.336 920 Generated table #631@1: 3431 keys, 2161016 bytes
+2023/08/11-15:55:30.407 920 Generated table #632@1: 3416 keys, 2165103 bytes
+2023/08/11-15:55:30.412 920 Generated table #633@1: 77 keys, 44284 bytes
+2023/08/11-15:55:30.412 920 Compacted 1@1 + 6@2 files => 10913506 bytes
+2023/08/11-15:55:30.414 920 compacted to: files[ 0 0 24 0 0 0 0 ]
+2023/08/11-15:55:30.414 920 Delete type=2 #584
+2023/08/11-15:55:30.414 920 Delete type=2 #585
+2023/08/11-15:55:30.414 920 Delete type=2 #586
+2023/08/11-15:55:30.414 920 Delete type=2 #587
+2023/08/11-15:55:30.414 920 Delete type=2 #608
+2023/08/11-15:55:30.414 920 Delete type=2 #609
+2023/08/11-15:55:30.415 920 Delete type=2 #612

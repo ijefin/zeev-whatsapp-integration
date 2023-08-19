@@ -2,26 +2,44 @@ document.addEventListener("DOMContentLoaded", function (event) {
   const submitButton = document.getElementById("BtnSend");
 
   function validateData() {
-    const name = document.querySelector("#inpnome");
-    const age = document.querySelector("#inpidade");
+    const fornecedor = document.getElementById("inpfornecedor");
+    const obra = document.getElementById("inplocalObra");
+    const cnpj = document.getElementById("inpcnpj1");
+    const dataEntrega = document.getElementById("inpcnpj");
+    const dataPagamento = document.getElementById("inpdataDePagamento");
+    const valor = document.getElementById("inpvalor");
+    const numeroDaCompra = document.getElementById("inprequisicaodecompra");
+    const empresa = document.getElementById("inpempresa");
 
-    if (name.value === "" || age.value === "") {
+    const dataList = [
+      fornecedor,
+      obra,
+      cnpj,
+      dataEntrega,
+      dataPagamento,
+      valor,
+      numeroDaCompra,
+      empresa,
+    ];
+    const validateEmpty = dataList.some((i) => i.value === "");
+    console.log(validateEmpty)
+
+    if (validateEmpty) {
       return;
     } else {
       const _data = {
-        title: name.value,
-        userId: age.value,
+        fornecedor: fornecedor.value,
+        obra: obra.value,
+        cnpj: cnpj.value,
+        dataEntrega: dataEntrega.value,
+        dataPagamento: dataPagamento.value,
+        valor: valor.value,
+        numeroDaCompra: numeroDaCompra.value,
+        empresa: empresa.value,
       };
 
-      fetch("https://jsonplaceholder.typicode.com/posts", {
-        method: "POST",
-        body: JSON.stringify(_data),
-        headers: { "Content-type": "application/json; charset=UTF-8" },
-      })
-        .then((response) => response.json())
-        .then((json) => console.log(json))
-        .catch((err) => console.log(err));
-      return console.log(_data);
+      // Do something with _data
+      console.log(_data);
     }
   }
 

@@ -13,7 +13,7 @@ class MessageController {
       const { title, userId } = req.body;
       const message = `${title} *${userId}*`;
 
-      await this.sender.sendText("553188253228@c.us", message);
+      await this.sender.sendText("553192310461@c.us", message);
 
       return res.status(200).json({ message: "Enviado com sucesso!" });
     } catch (error) {

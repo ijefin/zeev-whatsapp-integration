@@ -12,7 +12,9 @@ app.use(express.urlencoded({ extended: false }));
 
 const messageController = new DataController(sender);
 
-app.get("/status", (req, res) => {});
+app.get("/status", (req, res) => {
+  res.status(200).json("Done!");
+});
 
 app.post("/new-message", messageController.newMessage);
 

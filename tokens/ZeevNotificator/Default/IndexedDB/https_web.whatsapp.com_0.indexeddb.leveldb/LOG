@@ -1,74 +1,27 @@
-2023/08/21-09:28:37.393 217c Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/21-09:28:37.403 217c Recovering log #872
-2023/08/21-09:28:37.592 217c Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000872.log 
-2023/08/21-09:28:37.592 217c Delete type=2 #849
-2023/08/21-09:28:37.592 217c Delete type=2 #864
-2023/08/21-09:28:37.592 217c Delete type=2 #867
-2023/08/21-09:28:37.592 217c Delete type=2 #868
-2023/08/21-09:28:37.592 217c Delete type=2 #869
-2023/08/21-09:28:37.592 217c Delete type=2 #870
-2023/08/21-09:28:37.593 217c Delete type=2 #871
-2023/08/21-09:28:37.593 217c Delete type=2 #874
-2023/08/21-09:29:26.828 848 Level-0 table #884: started
-2023/08/21-09:29:26.909 848 Level-0 table #884: 909864 bytes OK
-2023/08/21-09:29:26.910 848 Delete type=0 #872
-2023/08/21-09:29:26.946 848 Compacting 1@1 + 7@2 files
-2023/08/21-09:29:27.092 848 Generated table #885@1: 29672 keys, 2195746 bytes
-2023/08/21-09:29:27.193 848 Generated table #886@1: 3030 keys, 2156115 bytes
-2023/08/21-09:29:27.294 848 Generated table #887@1: 2811 keys, 2160897 bytes
-2023/08/21-09:29:27.394 848 Generated table #888@1: 7092 keys, 2171248 bytes
-2023/08/21-09:29:27.694 848 Generated table #889@1: 29873 keys, 2258120 bytes
-2023/08/21-09:29:27.880 848 Generated table #890@1: 45338 keys, 2232558 bytes
-2023/08/21-09:29:27.957 848 Generated table #891@1: 44071 keys, 1040710 bytes
-2023/08/21-09:29:27.957 848 Compacted 1@1 + 7@2 files => 14215394 bytes
-2023/08/21-09:29:27.959 848 compacted to: files[ 0 0 7 0 0 0 0 ]
-2023/08/21-09:29:49.363 de8 Level-0 table #893: started
-2023/08/21-09:29:49.436 de8 Level-0 table #893: 1082937 bytes OK
-2023/08/21-09:29:49.439 de8 Delete type=2 #875
-2023/08/21-09:29:49.439 de8 Delete type=2 #876
-2023/08/21-09:29:49.439 de8 Delete type=2 #877
-2023/08/21-09:29:49.439 de8 Delete type=2 #878
-2023/08/21-09:29:49.439 de8 Delete type=2 #879
-2023/08/21-09:29:49.439 de8 Delete type=2 #880
-2023/08/21-09:29:49.439 de8 Delete type=2 #881
-2023/08/21-09:29:49.439 de8 Delete type=0 #883
-2023/08/21-09:29:49.440 de8 Delete type=2 #884
-2023/08/21-09:29:49.447 848 Compacting 1@1 + 7@2 files
-2023/08/21-09:29:49.576 848 Generated table #894@1: 30258 keys, 2196391 bytes
-2023/08/21-09:29:49.636 848 Generated table #895@1: 3029 keys, 2155267 bytes
-2023/08/21-09:29:49.698 848 Generated table #896@1: 2827 keys, 2173024 bytes
-2023/08/21-09:29:49.768 848 Generated table #897@1: 7061 keys, 2170378 bytes
-2023/08/21-09:29:49.955 848 Generated table #898@1: 29888 keys, 2258180 bytes
-2023/08/21-09:29:50.117 848 Generated table #899@1: 39875 keys, 2223274 bytes
-2023/08/21-09:29:50.216 848 Generated table #900@1: 64222 keys, 1501003 bytes
-2023/08/21-09:29:50.216 848 Compacted 1@1 + 7@2 files => 14677517 bytes
-2023/08/21-09:29:50.216 848 compacted to: files[ 0 0 7 0 0 0 0 ]
-2023/08/21-09:29:50.217 848 Delete type=2 #885
-2023/08/21-09:29:50.217 848 Delete type=2 #886
-2023/08/21-09:29:50.217 848 Delete type=2 #887
-2023/08/21-09:29:50.217 848 Delete type=2 #888
-2023/08/21-09:29:50.217 848 Delete type=2 #889
-2023/08/21-09:29:50.217 848 Delete type=2 #890
-2023/08/21-09:29:50.217 848 Delete type=2 #891
-2023/08/21-09:29:50.217 848 Delete type=2 #893
-2023/08/21-09:30:15.068 217c Level-0 table #902: started
-2023/08/21-09:30:15.155 217c Level-0 table #902: 1049350 bytes OK
-2023/08/21-09:30:15.157 217c Delete type=0 #892
-2023/08/21-09:30:15.159 848 Compacting 1@1 + 7@2 files
-2023/08/21-09:30:15.340 848 Generated table #903@1: 30435 keys, 2195390 bytes
-2023/08/21-09:30:15.411 848 Generated table #904@1: 3028 keys, 2156336 bytes
-2023/08/21-09:30:15.464 848 Generated table #905@1: 2826 keys, 2159994 bytes
-2023/08/21-09:30:15.530 848 Generated table #906@1: 6760 keys, 2169148 bytes
-2023/08/21-09:30:15.671 848 Generated table #907@1: 30007 keys, 2257309 bytes
-2023/08/21-09:30:15.795 848 Generated table #908@1: 34717 keys, 2217936 bytes
-2023/08/21-09:30:15.952 848 Generated table #909@1: 83431 keys, 1981519 bytes
-2023/08/21-09:30:15.953 848 Compacted 1@1 + 7@2 files => 15137632 bytes
-2023/08/21-09:30:15.953 848 compacted to: files[ 0 0 7 0 0 0 0 ]
-2023/08/21-09:30:15.954 848 Delete type=2 #894
-2023/08/21-09:30:15.954 848 Delete type=2 #895
-2023/08/21-09:30:15.954 848 Delete type=2 #896
-2023/08/21-09:30:15.954 848 Delete type=2 #897
-2023/08/21-09:30:15.954 848 Delete type=2 #898
-2023/08/21-09:30:15.954 848 Delete type=2 #899
-2023/08/21-09:30:15.954 848 Delete type=2 #900
-2023/08/21-09:30:15.954 848 Delete type=2 #902
+2023/08/21-09:49:32.802 132c Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/21-09:49:32.803 132c Recovering log #954
+2023/08/21-09:49:32.887 132c Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000954.log 
+2023/08/21-09:50:00.238 1224 Level-0 table #966: started
+2023/08/21-09:50:00.290 1224 Level-0 table #966: 1170657 bytes OK
+2023/08/21-09:50:00.291 1224 Delete type=0 #954
+2023/08/21-09:50:01.298 1224 Compacting 1@1 + 8@2 files
+2023/08/21-09:50:01.453 1224 Generated table #967@1: 39240 keys, 2206053 bytes
+2023/08/21-09:50:01.506 1224 Generated table #968@1: 2997 keys, 2154711 bytes
+2023/08/21-09:50:01.562 1224 Generated table #969@1: 2827 keys, 2161141 bytes
+2023/08/21-09:50:01.628 1224 Generated table #970@1: 3790 keys, 2165869 bytes
+2023/08/21-09:50:01.771 1224 Generated table #971@1: 29662 keys, 2248339 bytes
+2023/08/21-09:50:01.907 1224 Generated table #972@1: 35224 keys, 2235164 bytes
+2023/08/21-09:50:02.094 1224 Generated table #973@1: 62513 keys, 2202726 bytes
+2023/08/21-09:50:02.285 1224 Generated table #974@1: 100205 keys, 2250138 bytes
+2023/08/21-09:50:02.288 1224 Generated table #975@1: 203 keys, 8270 bytes
+2023/08/21-09:50:02.288 1224 Compacted 1@1 + 8@2 files => 17632411 bytes
+2023/08/21-09:50:02.289 1224 compacted to: files[ 0 0 9 0 0 0 0 ]
+2023/08/21-09:50:02.289 1224 Delete type=2 #956
+2023/08/21-09:50:02.289 1224 Delete type=2 #957
+2023/08/21-09:50:02.289 1224 Delete type=2 #958
+2023/08/21-09:50:02.289 1224 Delete type=2 #959
+2023/08/21-09:50:02.289 1224 Delete type=2 #960
+2023/08/21-09:50:02.289 1224 Delete type=2 #961
+2023/08/21-09:50:02.289 1224 Delete type=2 #962
+2023/08/21-09:50:02.289 1224 Delete type=2 #963
+2023/08/21-09:50:02.289 1224 Delete type=2 #966

@@ -1,6 +1,9 @@
 import { Router } from "express";
 import cors from "cors";
 import DataController from "./src/controllers/DataController";
+import WhatsappService from "./src/services/WhatsappService";
+
+const sender = new WhatsappService();
 
 const routes = Router();
 
@@ -14,10 +17,13 @@ var corsOptions = {
   optionsSuccessStatus: 200,
 };
 
+
 //allowing cors origin
 routes.use(cors(corsOptions));
 
-routes.post("/new-zeev", new DataController().sendZeevData);
+const messageController = new DataController(sender);
+
+routes.post("/new-message", messageController.newMessage);
 // routes.post("/new-task");
 // routes.put("/update-task/:id");
 // routes.delete("/delete-task/:id");

@@ -24,7 +24,7 @@ const messageController = new DataController(sender);
 
 routes.post("/new-message", messageController.newMessage);
 routes.get("/test", (req, res) => {
-  res.send("Olá mundo!");
+  res.send("This is a req test message");
 });
 // routes.post("/new-task");
 // routes.put("/update-task/:id");

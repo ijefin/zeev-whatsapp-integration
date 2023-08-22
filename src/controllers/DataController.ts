@@ -22,14 +22,14 @@ class MessageController {
       } = req.body;
 
       const message = `*Novo pedido de adiantamento criado!*
-      Fornecedor: ${fornecedor};
-      CNPJ: ${cnpj};
-      Obra destino: ${obra};
-      Data de entrega: ${dataEntrega};
-      Data de pagamento: ${dataPagamento};
-      *Valor*: ${valor};
-      N da compra: ${numeroDaCompra};
-      Empresa: ${empresa}`;
+Fornecedor: ${fornecedor};
+CNPJ: ${cnpj};
+Obra destino: ${obra};
+Data de entrega: ${dataEntrega};
+Data de pagamento: ${dataPagamento};
+*Valor*: ${valor};
+N da compra: ${numeroDaCompra};
+Empresa: ${empresa}`;
 
       await this.sender.sendText("5531988239681@c.us", message);
 

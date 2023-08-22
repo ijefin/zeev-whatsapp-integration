@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       empresa,
     ];
     const validateEmpty = dataList.some((i) => i.value === "");
-    console.log(validateEmpty)
+    console.log(validateEmpty);
 
     if (validateEmpty) {
       return;
@@ -39,7 +39,15 @@ document.addEventListener("DOMContentLoaded", function (event) {
       };
 
       // Do something with _data
-      console.log(_data);
+      fetch("http://localhost:3000/new-message", {
+        method: "POST",
+        body: JSON.stringify(_data),
+        headers: { "Content-type": "application/json; charset=UTF-8" },
+      })
+        .then((response) => response.json())
+        .then((json) => console.log(json))
+        .catch((err) => console.log(err));
+      return console.log(_data);
     }
   }
 

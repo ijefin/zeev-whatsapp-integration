@@ -24,7 +24,6 @@ class MessageController {
 
       const message = `🟡 *UM NOVO PEDIDO DE ADIANTAMENTO FINANCEIRO PARA COMPRA DE MATERIAIS FOI CRIADO NO ZEEV*.
 
-Em instantes, você sera notificado para realizar a *APROVAÇÃO*
    
 🚛 *Fornecedor:* ${fornecedor}
 🏬 *CNPJ:* ${cnpj}
@@ -36,6 +35,7 @@ Em instantes, você sera notificado para realizar a *APROVAÇÃO*
 🏬 *Empresa:* ${empresa}
 ℹ️ *Descrição da compra:* ${descricaoCompra}
 
+Em instantes, você sera notificado para realizar a *APROVAÇÃO*
 `;
 
       await this.sender.sendText("5531988239681@c.us", message);

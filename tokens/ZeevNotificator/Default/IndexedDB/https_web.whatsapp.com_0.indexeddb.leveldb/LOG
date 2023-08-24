@@ -1,28 +1,28 @@
-2023/08/24-15:47:07.766 390c Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/24-15:47:07.767 390c Recovering log #253
-2023/08/24-15:47:07.921 390c Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000253.log 
-2023/08/24-15:47:23.328 31fc Level-0 table #266: started
-2023/08/24-15:47:23.425 31fc Level-0 table #266: 1202192 bytes OK
-2023/08/24-15:47:23.427 31fc Delete type=0 #253
-2023/08/24-15:47:23.568 31fc Compacting 1@1 + 9@2 files
-2023/08/24-15:47:23.731 31fc Generated table #267@1: 44446 keys, 2213180 bytes
-2023/08/24-15:47:23.889 31fc Generated table #268@1: 3331 keys, 2155072 bytes
-2023/08/24-15:47:23.958 31fc Generated table #269@1: 3703 keys, 2160053 bytes
-2023/08/24-15:47:24.120 31fc Generated table #270@1: 19263 keys, 2201497 bytes
-2023/08/24-15:47:24.301 31fc Generated table #271@1: 28445 keys, 2259046 bytes
-2023/08/24-15:47:24.441 31fc Generated table #272@1: 12311 keys, 2146307 bytes
-2023/08/24-15:47:24.655 31fc Generated table #273@1: 95014 keys, 2243736 bytes
-2023/08/24-15:47:25.059 31fc Generated table #274@1: 100524 keys, 2250814 bytes
-2023/08/24-15:47:25.207 31fc Generated table #275@1: 53753 keys, 1211371 bytes
-2023/08/24-15:47:25.207 31fc Compacted 1@1 + 9@2 files => 18841076 bytes
-2023/08/24-15:47:25.208 31fc compacted to: files[ 0 0 9 0 0 0 0 ]
-2023/08/24-15:47:25.208 31fc Delete type=2 #255
-2023/08/24-15:47:25.209 31fc Delete type=2 #256
-2023/08/24-15:47:25.209 31fc Delete type=2 #257
-2023/08/24-15:47:25.209 31fc Delete type=2 #258
-2023/08/24-15:47:25.209 31fc Delete type=2 #259
-2023/08/24-15:47:25.209 31fc Delete type=2 #260
-2023/08/24-15:47:25.209 31fc Delete type=2 #261
-2023/08/24-15:47:25.209 31fc Delete type=2 #262
-2023/08/24-15:47:25.209 31fc Delete type=2 #263
-2023/08/24-15:47:25.209 31fc Delete type=2 #266
+2023/08/24-16:03:43.889 254c Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/24-16:03:43.890 254c Recovering log #265
+2023/08/24-16:03:43.945 254c Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000265.log 
+2023/08/24-16:11:11.458 48c Level-0 table #278: started
+2023/08/24-16:11:11.543 48c Level-0 table #278: 1275045 bytes OK
+2023/08/24-16:11:11.545 48c Delete type=0 #265
+2023/08/24-16:11:14.682 48c Compacting 1@1 + 9@2 files
+2023/08/24-16:11:14.838 48c Generated table #279@1: 48161 keys, 2225080 bytes
+2023/08/24-16:11:14.883 48c Generated table #280@1: 3307 keys, 2158070 bytes
+2023/08/24-16:11:14.942 48c Generated table #281@1: 3492 keys, 2159879 bytes
+2023/08/24-16:11:15.038 48c Generated table #282@1: 17786 keys, 2195372 bytes
+2023/08/24-16:11:15.161 48c Generated table #283@1: 27699 keys, 2264098 bytes
+2023/08/24-16:11:15.242 48c Generated table #284@1: 14591 keys, 2153595 bytes
+2023/08/24-16:11:15.408 48c Generated table #285@1: 88097 keys, 2234951 bytes
+2023/08/24-16:11:15.635 48c Generated table #286@1: 100529 keys, 2251359 bytes
+2023/08/24-16:11:15.780 48c Generated table #287@1: 61762 keys, 1392144 bytes
+2023/08/24-16:11:15.780 48c Compacted 1@1 + 9@2 files => 19034548 bytes
+2023/08/24-16:11:15.780 48c compacted to: files[ 0 0 9 0 0 0 0 ]
+2023/08/24-16:11:15.781 48c Delete type=2 #267
+2023/08/24-16:11:15.781 48c Delete type=2 #268
+2023/08/24-16:11:15.781 48c Delete type=2 #269
+2023/08/24-16:11:15.781 48c Delete type=2 #270
+2023/08/24-16:11:15.781 48c Delete type=2 #271
+2023/08/24-16:11:15.781 48c Delete type=2 #272
+2023/08/24-16:11:15.781 48c Delete type=2 #273
+2023/08/24-16:11:15.781 48c Delete type=2 #274
+2023/08/24-16:11:15.781 48c Delete type=2 #275
+2023/08/24-16:11:15.781 48c Delete type=2 #278

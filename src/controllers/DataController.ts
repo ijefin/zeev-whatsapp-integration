@@ -19,18 +19,24 @@ class MessageController {
         valor,
         numeroDaCompra,
         empresa,
+        descricaoCompra,
       } = req.body;
 
-      const message = `Um novo pedido de adiantamento financeiro para *COMPRA DE MATERIAIS* foi criado.
+      const message = `🟡 *UM NOVO PEDIDO DE ADIANTAMENTO FINANCEIRO PARA COMPRA DE MATERIAIS FOI CRIADO NO ZEEV*.
+
+Em instantes, você sera notificado para realizar a *APROVAÇÃO*
    
-*Fornecedor:* ${fornecedor};
-*CNPJ:* ${cnpj};
-*Obra destino:* ${obra};
-*Data de entrega:* ${dataEntrega};
-*Data de pagamento:* ${dataPagamento};
-*Valor*: ${valor};
-*N da compra:* ${numeroDaCompra};
-*Empresa:* ${empresa}`;
+🚛 *Fornecedor:* ${fornecedor}
+🏬 *CNPJ:* ${cnpj}
+🚜 *Obra destino:* ${obra}
+📆 *Data de entrega:* ${dataEntrega}
+🗓️ *Data de pagamento:* ${dataPagamento}
+💲 *Valor*: ${valor}
+🆔 *N da requisição de compra:* ${numeroDaCompra}
+🏬 *Empresa:* ${empresa}
+ℹ️ *Descrição da compra:* ${descricaoCompra}
+
+`;
 
       await this.sender.sendText("5531988239681@c.us", message);
 

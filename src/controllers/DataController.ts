@@ -24,7 +24,7 @@ class MessageController {
       const message = `*Novo pedido de adiantamento criado!*
 *Fornecedor:* ${fornecedor};
 *CNPJ:* ${cnpj};
-*Obra destino:*z ${obra};
+*Obra destino:* ${obra};
 *Data de entrega:* ${dataEntrega};
 *Data de pagamento:* ${dataPagamento};
 *Valor*: ${valor};

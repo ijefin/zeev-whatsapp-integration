@@ -21,7 +21,8 @@ class MessageController {
         empresa,
       } = req.body;
 
-      const message = `*Novo pedido de adiantamento criado!*
+      const message = `Um novo pedido de adiantamento financeiro para *COMPRA DE MATERIAIS* foi criado.
+   
 *Fornecedor:* ${fornecedor};
 *CNPJ:* ${cnpj};
 *Obra destino:* ${obra};

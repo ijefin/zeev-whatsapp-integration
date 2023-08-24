@@ -31,7 +31,7 @@ Em instantes, você sera notificado para realizar a *APROVAÇÃO*
 🚜 *Obra destino:* ${obra}
 📆 *Data de entrega:* ${dataEntrega}
 🗓️ *Data de pagamento:* ${dataPagamento}
-💲 *Valor*: ${valor}
+💰 *Valor*: ${valor}
 🆔 *N da requisição de compra:* ${numeroDaCompra}
 🏬 *Empresa:* ${empresa}
 ℹ️ *Descrição da compra:* ${descricaoCompra}

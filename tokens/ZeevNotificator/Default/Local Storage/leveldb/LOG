@@ -1,3 +1,5 @@
-2023/08/24-15:44:37.294 29bc Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\Local Storage\leveldb/MANIFEST-000001
-2023/08/24-15:44:37.297 29bc Recovering log #3
-2023/08/24-15:44:37.301 29bc Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\Local Storage\leveldb/000003.log 
+2023/08/24-15:47:07.207 33c4 Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\Local Storage\leveldb/MANIFEST-000001
+2023/08/24-15:47:07.208 33c4 Recovering log #3
+2023/08/24-15:47:07.208 33c4 Level-0 table #3: started
+2023/08/24-15:47:07.400 33c4 Level-0 table #3: 19751 bytes OK
+2023/08/24-15:47:07.407 33c4 Delete type=0 #3

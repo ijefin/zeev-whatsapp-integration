@@ -1,3 +1,28 @@
-2023/08/24-15:44:37.917 32b4 Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/24-15:44:37.918 32b4 Recovering log #253
-2023/08/24-15:44:37.975 32b4 Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000253.log 
+2023/08/24-15:47:07.766 390c Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/24-15:47:07.767 390c Recovering log #253
+2023/08/24-15:47:07.921 390c Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000253.log 
+2023/08/24-15:47:23.328 31fc Level-0 table #266: started
+2023/08/24-15:47:23.425 31fc Level-0 table #266: 1202192 bytes OK
+2023/08/24-15:47:23.427 31fc Delete type=0 #253
+2023/08/24-15:47:23.568 31fc Compacting 1@1 + 9@2 files
+2023/08/24-15:47:23.731 31fc Generated table #267@1: 44446 keys, 2213180 bytes
+2023/08/24-15:47:23.889 31fc Generated table #268@1: 3331 keys, 2155072 bytes
+2023/08/24-15:47:23.958 31fc Generated table #269@1: 3703 keys, 2160053 bytes
+2023/08/24-15:47:24.120 31fc Generated table #270@1: 19263 keys, 2201497 bytes
+2023/08/24-15:47:24.301 31fc Generated table #271@1: 28445 keys, 2259046 bytes
+2023/08/24-15:47:24.441 31fc Generated table #272@1: 12311 keys, 2146307 bytes
+2023/08/24-15:47:24.655 31fc Generated table #273@1: 95014 keys, 2243736 bytes
+2023/08/24-15:47:25.059 31fc Generated table #274@1: 100524 keys, 2250814 bytes
+2023/08/24-15:47:25.207 31fc Generated table #275@1: 53753 keys, 1211371 bytes
+2023/08/24-15:47:25.207 31fc Compacted 1@1 + 9@2 files => 18841076 bytes
+2023/08/24-15:47:25.208 31fc compacted to: files[ 0 0 9 0 0 0 0 ]
+2023/08/24-15:47:25.208 31fc Delete type=2 #255
+2023/08/24-15:47:25.209 31fc Delete type=2 #256
+2023/08/24-15:47:25.209 31fc Delete type=2 #257
+2023/08/24-15:47:25.209 31fc Delete type=2 #258
+2023/08/24-15:47:25.209 31fc Delete type=2 #259
+2023/08/24-15:47:25.209 31fc Delete type=2 #260
+2023/08/24-15:47:25.209 31fc Delete type=2 #261
+2023/08/24-15:47:25.209 31fc Delete type=2 #262
+2023/08/24-15:47:25.209 31fc Delete type=2 #263
+2023/08/24-15:47:25.209 31fc Delete type=2 #266

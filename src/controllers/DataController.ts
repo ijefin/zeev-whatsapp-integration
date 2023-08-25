@@ -1,6 +1,32 @@
 import { Request, Response } from "express";
 import WhatsappService from "../services/WhatsappService";
 
+var currentDate = new Date();
+var day: string | number = currentDate.getDate();
+var month: string | number = currentDate.getMonth() + 1; // Os meses são indexados a partir de 0
+var year: string | number = currentDate.getFullYear();
+var hours: string | number = currentDate.getHours();
+var minutes: string | number = currentDate.getMinutes();
+var seconds: string | number = currentDate.getSeconds();
+
+if (day < 10) {
+  day = "0" + day;
+}
+if (month < 10) {
+  month = "0" + month;
+}
+if (hours < 10) {
+  hours = "0" + hours;
+}
+if (minutes < 10) {
+  minutes = "0" + minutes;
+}
+if (seconds < 10) {
+  seconds = "0" + seconds;
+}
+
+var formattedDateTime = `Solicitação gerada em: ${day}/${month}/${year} às ${hours}:${minutes}:${seconds}`;
+
 class MessageController {
   private sender: WhatsappService;
 
@@ -37,6 +63,8 @@ class MessageController {
 ℹ️ *Descrição da compra:* ${descricaoCompra}
 
 Em instantes, você sera notificado para realizar a *APROVAÇÃO*
+
+${formattedDateTime}
 `;
 
       await this.sender.sendText("5531988239681@c.us", message);

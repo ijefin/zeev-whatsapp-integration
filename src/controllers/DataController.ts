@@ -92,7 +92,7 @@ ${formattedDateTime}
         motivoDaCompra,
       } = req.body;
 
-      const message = `🔴 *SOLICITAÇÃO DE APROVAÇÃO DE ADIANTAMENTO FINACEIRO PARA COMPRA DE MATERIAL*.
+      const message = `🔴 *SOLICITAÇÃO DE APROVAÇÃO DE ADIANTAMENTO FINANCEIRO PARA COMPRA DE MATERIAL*.
 
 ℹ️ *Motivo da Compra:* ${motivoDaCompra}
 🚛 *Fornecedor:* ${fornecedor}
@@ -133,7 +133,7 @@ ${formattedDateTime}
         numeroOc,
       } = req.body;
 
-      const message = `🟢 *O PAGAMENTO DA OC DE NUMERO ${numeroOc} FOI REALIZADO COM SUCESSO!*🟢.
+      const message = `🟢 *O PAGAMENTO DA OC DE NUMERO ${numeroOc} FOI REALIZADO COM SUCESSO!*.
 
 🚛 *Fornecedor:* ${fornecedor}
 🏬 *CNPJ:* ${cnpj}

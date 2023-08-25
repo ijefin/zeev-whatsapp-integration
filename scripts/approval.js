@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const numeroDaCompra = document.getElementById("inprequisicaodecompra");
     const empresa = document.getElementById("inpempresa");
     const descricaoCompra = document.getElementById("inpdescricaoCompra");
+    const numeroOc = document.getElementById("inpnumerooc");
 
     const dataList = [
       fornecedor,
@@ -20,13 +21,9 @@ document.addEventListener("DOMContentLoaded", function (event) {
       numeroDaCompra,
       empresa,
       descricaoCompra,
+      numeroOc,
     ];
-    //   const validateEmpty = dataList.some((i) => i.value === "");
-    //   console.log(validateEmpty);
 
-    //   if (validateEmpty) {
-    //     return;
-    //   } else {
     const _data = {
       fornecedor: fornecedor.value,
       obra: obra.value,
@@ -37,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       numeroDaCompra: numeroDaCompra.value,
       empresa: empresa.value,
       descricaoCompra: descricaoCompra.value,
+      numeroOc: numeroOc.value,
     };
 
     console.log(_data);

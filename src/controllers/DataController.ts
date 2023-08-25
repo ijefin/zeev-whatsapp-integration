@@ -65,6 +65,7 @@ Em instantes, você sera notificado para realizar a *APROVAÇÃO*
       } = req.body;
 
       const message = `🔴*SOLICITAÇÃO DE APROVAÇÃO DE ADIANTAMENTO FINACEIRO PARA COMPRA DE MATERIAL*.🔴
+
 ℹ️ *Motivo da Compra:* ${motivoDaCompra}
 🚛 *Fornecedor:* ${fornecedor}
 🏬 *CNPJ:* ${cnpj}

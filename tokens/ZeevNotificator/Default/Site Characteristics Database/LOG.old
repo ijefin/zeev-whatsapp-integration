@@ -1,2 +1,3 @@
-2023/08/25-09:57:24.691 2070 Creating DB C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\Site Characteristics Database since it was missing.
-2023/08/25-09:57:24.727 2070 Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\Site Characteristics Database/MANIFEST-000001
+2023/08/25-10:12:38.082 3024 Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\Site Characteristics Database/MANIFEST-000001
+2023/08/25-10:12:38.083 3024 Recovering log #3
+2023/08/25-10:12:38.083 3024 Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\Site Characteristics Database/000003.log 

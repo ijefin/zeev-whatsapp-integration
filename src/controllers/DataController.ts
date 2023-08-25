@@ -38,8 +38,8 @@ class MessageController {
 Em instantes, você sera notificado para realizar a *APROVAÇÃO*
 `;
 
-      await this.sender.sendText("5531988239681@c.us", message);
-      await this.sender.sendText("5531985527877@c.us", message);
+      // await this.sender.sendText("5531988239681@c.us", message);
+      // await this.sender.sendText("5531985527877@c.us", message);
 
       return res.status(200).json({ message: "Enviado com sucesso!" });
     } catch (error) {
@@ -81,7 +81,7 @@ Em instantes, você sera notificado para realizar a *APROVAÇÃO*
 `;
 
       await this.sender.sendText("5531988239681@c.us", message);
-      await this.sender.sendText("5531985527877@c.us", message);
+      // await this.sender.sendText("5531985527877@c.us", message);
 
       return res.status(200).json({ message: "Enviado com sucesso!" });
     } catch (error) {

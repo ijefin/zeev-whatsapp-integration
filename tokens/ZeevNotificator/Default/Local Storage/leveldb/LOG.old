@@ -1,2 +1,3 @@
-2023/08/25-09:57:25.108 2f40 Creating DB C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\Local Storage\leveldb since it was missing.
-2023/08/25-09:57:25.143 2f40 Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\Local Storage\leveldb/MANIFEST-000001
+2023/08/25-10:12:38.583 6f0 Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\Local Storage\leveldb/MANIFEST-000001
+2023/08/25-10:12:38.584 6f0 Recovering log #3
+2023/08/25-10:12:38.590 6f0 Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\Local Storage\leveldb/000003.log 

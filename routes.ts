@@ -24,6 +24,7 @@ const messageController = new DataController(sender);
 
 routes.post("/new-message", messageController.aberturaAdiantamento);
 routes.post("/approval-message", messageController.aprovacaoAdiantamento);
+routes.post("/notify-approve", messageController.notificarAprovacao);
 
 routes.get("/test", (req, res) => {
   res.send("This is a req test message");

@@ -22,7 +22,7 @@ class MessageController {
         descricaoCompra,
       } = req.body;
 
-      const message = `🟡 *UM NOVO PEDIDO DE ADIANTAMENTO FINANCEIRO PARA COMPRA DE MATERIAIS FOI CRIADO NO ZEEV*.
+      const message = `🟡 *UM NOVO PEDIDO DE ADIANTAMENTO FINANCEIRO PARA COMPRA DE MATERIAIS FOI CRIADO NO ZEEV* 🟡.
 
    
 🚛 *Fornecedor:* ${fornecedor}
@@ -38,7 +38,7 @@ class MessageController {
 Em instantes, você sera notificado para realizar a *APROVAÇÃO*
 `;
 
-      // await this.sender.sendText("5531988239681@c.us", message);
+      await this.sender.sendText("5531988239681@c.us", message);
       // await this.sender.sendText("5531985527877@c.us", message);
 
       return res.status(200).json({ message: "Enviado com sucesso!" });
@@ -49,6 +49,46 @@ Em instantes, você sera notificado para realizar a *APROVAÇÃO*
   };
 
   aprovacaoAdiantamento = async (req: Request, res: Response) => {
+    try {
+      const {
+        fornecedor,
+        obra,
+        cnpj,
+        dataEntrega,
+        dataPagamento,
+        valor,
+        empresa,
+        descricaoCompra,
+        numeroOc,
+      } = req.body;
+
+      const message = `🔴*SOLICITAÇÃO DE APROVAÇÃO DE ADIANTAMENTO FINACEIRO PARA COMPRA DE MATERIAL*.🔴
+
+🚛 - *Fornecedor:* ${fornecedor}
+🏬 - *CNPJ:* ${cnpj}
+🚜 - *Obra destino:* ${obra}
+📆 - *Data de entrega:* ${dataEntrega}
+🗓️ - *Data de pagamento:* ${dataPagamento}
+💰 - *Valor*: ${valor}
+🏬 - *Empresa:* ${empresa}
+ℹ️ - *Descrição da compra:* ${descricaoCompra}
+
+*ESTA SOLICITAÇÃO ESTA PENDENTE DE APROVAÇÂO. FAVOR REALIZAR APROVAÇÃO O MAIS BREVE POSSÍVEL*
+
+*🆔 NUMERO DA OC: _${numeroOc}_*
+`;
+
+      await this.sender.sendText("5531988239681@c.us", message);
+      // await this.sender.sendText("5531985527877@c.us", message);
+
+      return res.status(200).json({ message: "Enviado com sucesso!" });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ status: "error", message: error });
+    }
+  };
+
+  notificarAprovacao = async (req: Request, res: Response) => {
     try {
       const {
         fornecedor,

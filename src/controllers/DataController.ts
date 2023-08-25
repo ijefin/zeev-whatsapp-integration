@@ -68,7 +68,7 @@ ${formattedDateTime}
 `;
 
       await this.sender.sendText("5531988239681@c.us", message);
-      await this.sender.sendText("5531985527877@c.us", message);
+      await this.sender.sendText("5531993678691@c.us", message);
 
       return res.status(200).json({ message: "Enviado com sucesso!" });
     } catch (error) {
@@ -92,7 +92,7 @@ ${formattedDateTime}
         motivoDaCompra,
       } = req.body;
 
-      const message = `🔴*SOLICITAÇÃO DE APROVAÇÃO DE ADIANTAMENTO FINACEIRO PARA COMPRA DE MATERIAL*.🔴
+      const message = `🔴 *SOLICITAÇÃO DE APROVAÇÃO DE ADIANTAMENTO FINACEIRO PARA COMPRA DE MATERIAL*.
 
 ℹ️ *Motivo da Compra:* ${motivoDaCompra}
 🚛 *Fornecedor:* ${fornecedor}
@@ -110,7 +110,7 @@ ${formattedDateTime}
 `;
 
       await this.sender.sendText("5531988239681@c.us", message);
-      await this.sender.sendText("5531985527877@c.us", message);
+      await this.sender.sendText("5531993678691@c.us", message);
 
       return res.status(200).json({ message: "Enviado com sucesso!" });
     } catch (error) {
@@ -133,7 +133,7 @@ ${formattedDateTime}
         numeroOc,
       } = req.body;
 
-      const message = `🟢*O PAGAMENTO DA OC DE NUMERO ${numeroOc} FOI REALIZADO COM SUCESSO!*🟢.
+      const message = `🟢 *O PAGAMENTO DA OC DE NUMERO ${numeroOc} FOI REALIZADO COM SUCESSO!*🟢.
 
 🚛 *Fornecedor:* ${fornecedor}
 🏬 *CNPJ:* ${cnpj}
@@ -146,7 +146,7 @@ ${formattedDateTime}
 `;
 
       await this.sender.sendText("5531988239681@c.us", message);
-      await this.sender.sendText("5531985527877@c.us", message);
+      await this.sender.sendText("5531993678691@c.us", message);
 
       return res.status(200).json({ message: "Enviado com sucesso!" });
     } catch (error) {

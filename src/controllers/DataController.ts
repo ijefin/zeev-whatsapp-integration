@@ -47,6 +47,48 @@ Em instantes, você sera notificado para realizar a *APROVAÇÃO*
       res.status(500).json({ status: "error", message: error });
     }
   };
+
+  aprovacaoAdiantamento = async (req: Request, res: Response) => {
+    try {
+      const {
+        fornecedor,
+        obra,
+        cnpj,
+        dataEntrega,
+        dataPagamento,
+        valor,
+        numeroDaCompra,
+        empresa,
+        descricaoCompra,
+      } = req.body;
+
+      const message = `🔴*SOLICITAÇÃO DE APROVAÇÃO de ADIANTAMENTO FINACEIRO PARA COMPRA DE MATERIAL*.🔴
+
+🚛 - *Fornecedor:* ${fornecedor}
+🏬 - *CNPJ:* ${cnpj}
+🚜 - *Obra destino:* ${obra}
+📆 - *Data de entrega:* ${dataEntrega}
+🗓️ - *Data de pagamento:* ${dataPagamento}
+💰 - *Valor*: ${valor}
+🆔 - *N da requisição de compra:* ${numeroDaCompra}
+🏬 - *Empresa:* ${empresa}
+ℹ️ - *Descrição da compra:* ${descricaoCompra}
+
+*Esta solicitação esta pendente de APROVAÇÂO.*
+*FAVOR REALIZAR APROVAÇÃO O MAIS BREVE POSSÍVEL*
+
+*NUMERO DA OC*
+`;
+
+      await this.sender.sendText("5531988239681@c.us", message);
+      await this.sender.sendText("5531985527877@c.us", message);
+
+      return res.status(200).json({ message: "Enviado com sucesso!" });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ status: "error", message: error });
+    }
+  };
 }
 
 export default MessageController;

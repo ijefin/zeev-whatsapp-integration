@@ -57,12 +57,12 @@ Em instantes, você sera notificado para realizar a *APROVAÇÃO*
         dataEntrega,
         dataPagamento,
         valor,
-        numeroDaCompra,
         empresa,
         descricaoCompra,
+        numeroOc,
       } = req.body;
 
-      const message = `🔴*SOLICITAÇÃO DE APROVAÇÃO de ADIANTAMENTO FINACEIRO PARA COMPRA DE MATERIAL*.🔴
+      const message = `🔴*SOLICITAÇÃO DE APROVAÇÃO DE ADIANTAMENTO FINACEIRO PARA COMPRA DE MATERIAL*.🔴
 
 🚛 - *Fornecedor:* ${fornecedor}
 🏬 - *CNPJ:* ${cnpj}
@@ -70,14 +70,12 @@ Em instantes, você sera notificado para realizar a *APROVAÇÃO*
 📆 - *Data de entrega:* ${dataEntrega}
 🗓️ - *Data de pagamento:* ${dataPagamento}
 💰 - *Valor*: ${valor}
-🆔 - *N da requisição de compra:* ${numeroDaCompra}
 🏬 - *Empresa:* ${empresa}
 ℹ️ - *Descrição da compra:* ${descricaoCompra}
 
-*Esta solicitação esta pendente de APROVAÇÂO.*
-*FAVOR REALIZAR APROVAÇÃO O MAIS BREVE POSSÍVEL*
+*ESTA SOLICITAÇÃO ESTA PENDENTE DE APROVAÇÂO. FAVOR REALIZAR APROVAÇÃO O MAIS BREVE POSSÍVEL*
 
-*NUMERO DA OC*
+*🆔 NUMERO DA OC: _${numeroOc}_*
 `;
 
       await this.sender.sendText("5531988239681@c.us", message);

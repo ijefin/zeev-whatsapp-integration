@@ -49,7 +49,7 @@ class MessageController {
         motivoDaCompra,
       } = req.body;
 
-      const message = `🟡 *UM NOVO PEDIDO DE ADIANTAMENTO FINANCEIRO PARA COMPRA DE MATERIAIS FOI CRIADO NO ZEEV* 🟡.
+      const message = `🟡 *UM NOVO PEDIDO DE ADIANTAMENTO FINANCEIRO PARA COMPRA DE MATERIAIS FOI CRIADO NO ZEEV*.
 
 ℹ️ Motivo da Compra: ${motivoDaCompra}
 🚛 *Fornecedor:* ${fornecedor}
@@ -68,7 +68,8 @@ ${formattedDateTime}
 `;
 
       await this.sender.sendText("5531988239681@c.us", message);
-      await this.sender.sendText("5531993678691@c.us", message);
+
+      await this.sender.sendText("5531985527877@c.us", message);
 
       return res.status(200).json({ message: "Enviado com sucesso!" });
     } catch (error) {
@@ -109,8 +110,9 @@ ${formattedDateTime}
 *🆔 NUMERO DA OC: _${numeroOc}_*
 `;
 
+      await this.sender.sendText("5531992961540@c.us", message);
       await this.sender.sendText("5531988239681@c.us", message);
-      await this.sender.sendText("5531993678691@c.us", message);
+      await this.sender.sendText("5531993619411@c.us", message);
 
       return res.status(200).json({ message: "Enviado com sucesso!" });
     } catch (error) {
@@ -145,8 +147,9 @@ ${formattedDateTime}
 ℹ️ *Descrição da compra:* ${descricaoCompra}
 `;
 
+      await this.sender.sendText("5531992961540@c.us", message);
       await this.sender.sendText("5531988239681@c.us", message);
-      await this.sender.sendText("5531993678691@c.us", message);
+      await this.sender.sendText("5531993619411@c.us", message);
 
       return res.status(200).json({ message: "Enviado com sucesso!" });
     } catch (error) {

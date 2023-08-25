@@ -20,11 +20,12 @@ class MessageController {
         numeroDaCompra,
         empresa,
         descricaoCompra,
+        motivoDaCompra,
       } = req.body;
 
       const message = `🟡 *UM NOVO PEDIDO DE ADIANTAMENTO FINANCEIRO PARA COMPRA DE MATERIAIS FOI CRIADO NO ZEEV* 🟡.
 
-   
+ℹ️ - Motivo da Compra: ${motivoDaCompra}
 🚛 *Fornecedor:* ${fornecedor}
 🏬 *CNPJ:* ${cnpj}
 🚜 *Obra destino:* ${obra}
@@ -60,10 +61,11 @@ Em instantes, você sera notificado para realizar a *APROVAÇÃO*
         empresa,
         descricaoCompra,
         numeroOc,
+        motivoDaCompra,
       } = req.body;
 
       const message = `🔴*SOLICITAÇÃO DE APROVAÇÃO DE ADIANTAMENTO FINACEIRO PARA COMPRA DE MATERIAL*.🔴
-
+ℹ️ - Motivo da Compra: ${motivoDaCompra}
 🚛 - *Fornecedor:* ${fornecedor}
 🏬 - *CNPJ:* ${cnpj}
 🚜 - *Obra destino:* ${obra}
@@ -73,7 +75,7 @@ Em instantes, você sera notificado para realizar a *APROVAÇÃO*
 🏬 - *Empresa:* ${empresa}
 ℹ️ - *Descrição da compra:* ${descricaoCompra}
 
-*ESTA SOLICITAÇÃO ESTA PENDENTE DE APROVAÇÂO. FAVOR REALIZAR APROVAÇÃO O MAIS BREVE POSSÍVEL*
+⚠️ *ESTA SOLICITAÇÃO ESTÁ PENDENTE DE APROVAÇÃO. FAVOR REALIZA-LA O MAIS BREVE POSSÍVEL* 
 
 *🆔 NUMERO DA OC: _${numeroOc}_*
 `;
@@ -102,7 +104,7 @@ Em instantes, você sera notificado para realizar a *APROVAÇÃO*
         numeroOc,
       } = req.body;
 
-      const message = `🔴*SOLICITAÇÃO DE APROVAÇÃO DE ADIANTAMENTO FINACEIRO PARA COMPRA DE MATERIAL*.🔴
+      const message = `🟢*O PAGAMENTO DA OC DE NUMERO ${numeroOc} FOI REALIZADO COM SUCESSO!*🟢.
 
 🚛 - *Fornecedor:* ${fornecedor}
 🏬 - *CNPJ:* ${cnpj}
@@ -112,10 +114,6 @@ Em instantes, você sera notificado para realizar a *APROVAÇÃO*
 💰 - *Valor*: ${valor}
 🏬 - *Empresa:* ${empresa}
 ℹ️ - *Descrição da compra:* ${descricaoCompra}
-
-*ESTA SOLICITAÇÃO ESTA PENDENTE DE APROVAÇÂO. FAVOR REALIZAR APROVAÇÃO O MAIS BREVE POSSÍVEL*
-
-*🆔 NUMERO DA OC: _${numeroOc}_*
 `;
 
       await this.sender.sendText("5531988239681@c.us", message);

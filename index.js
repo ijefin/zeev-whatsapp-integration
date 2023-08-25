@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const valor = document.getElementById("inpvalor");
     const numeroDaCompra = document.getElementById("inprequisicaodecompra");
     const empresa = document.getElementById("inpempresa");
+    const descricaoCompra = document.getElementById('inpdescricaoCompra')
 
     const dataList = [
       fornecedor,
@@ -20,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
       valor,
       numeroDaCompra,
       empresa,
+      descricaoCompra
     ];
     const validateEmpty = dataList.some((i) => i.value === "");
     console.log(validateEmpty);
@@ -36,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         valor: valor.value,
         numeroDaCompra: numeroDaCompra.value,
         empresa: empresa.value,
+        descricaoCompra: descricaoCompra.value
       };
 
       // Do something with _data

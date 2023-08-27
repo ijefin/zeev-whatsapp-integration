@@ -1,4 +1,0 @@
-2023/08/25-15:42:24.368 930 Creating DB C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\shared_proto_db since it was missing.
-2023/08/25-15:42:24.372 930 Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\shared_proto_db/MANIFEST-000001
-2023/08/25-15:42:24.373 930 Recovering log #3
-2023/08/25-15:42:24.373 930 Reusing old log C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\shared_proto_db/000003.log 

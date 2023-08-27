@@ -3622,7 +3622,7 @@ pupa@^3.1.0:
   dependencies:
     escape-goat "^4.0.0"
 
-puppeteer-core@*, puppeteer-core@^21.1.0, puppeteer-core@21.1.0:
+puppeteer-core@*, puppeteer-core@21.1.0:
   version "21.1.0"
   resolved "https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-21.1.0.tgz"
   integrity sha512-ggfTj09jo81Y6M4DyNj80GrY6Pip+AtDUgGljqoSzP6FG5nz5Aju6Cs/X147fLgkJ4UKTb736U6cDp0ssLzN5Q==

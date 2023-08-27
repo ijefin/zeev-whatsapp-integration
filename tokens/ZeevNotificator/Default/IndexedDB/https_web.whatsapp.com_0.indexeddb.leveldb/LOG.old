@@ -1,0 +1,10 @@
+2023/08/27-11:48:06.003 2a4c Creating DB C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2023/08/27-11:48:06.012 2a4c Reusing MANIFEST C:\Users\Lenovo\Desktop\WPP Integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/27-11:48:06.075 c10 Level-0 table #5: started
+2023/08/27-11:48:06.096 c10 Level-0 table #5: 7441 bytes OK
+2023/08/27-11:48:06.102 c10 Delete type=0 #3
+2023/08/27-11:48:06.107 2a4c Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/08/27-11:48:08.392 2a4c Level-0 table #7: started
+2023/08/27-11:48:08.395 2a4c Level-0 table #7: 18346 bytes OK
+2023/08/27-11:48:08.434 2a4c Delete type=0 #4
+2023/08/27-11:48:08.435 2a4c Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

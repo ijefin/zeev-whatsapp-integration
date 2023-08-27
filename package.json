@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "18"
-  },
   "scripts": {
     "dev": "tsx ./src/app.ts",
     "build": "tsup ./src"
@@ -21,7 +18,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "venom-bot": "^5.0.19"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",

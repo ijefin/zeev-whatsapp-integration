@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "18"
+  },
   "scripts": {
-    "dev": "tsx ./src/app.ts"
+    "dev": "tsx ./src/app.ts",
+    "build": "tsup ./src"
   },
   "presets": [
     "@babel/preset-env",

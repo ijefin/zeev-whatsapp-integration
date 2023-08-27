@@ -9,7 +9,7 @@ const port = 3000;
  * @type {import("puppeteer").Configuration}
  */
 module.exports = {
-  // Changes the cache location for Puppeteer.
+  // Changes the cache location for Puppeteer. 
   cacheDirectory: join(__dirname, ".cache", "puppeteer"),
 };
 

@@ -1,51 +1,26 @@
-2023/08/28-09:56:51.077 1d90 Creating DB C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
-2023/08/28-09:56:51.089 1d90 Reusing MANIFEST C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/28-09:56:51.154 1d90 Level-0 table #5: started
-2023/08/28-09:56:51.157 1d90 Level-0 table #5: 7439 bytes OK
-2023/08/28-09:56:51.158 1d90 Delete type=0 #3
-2023/08/28-09:56:51.159 1d90 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/08/28-09:56:52.505 4078 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/08/28-09:57:26.153 1d90 Level-0 table #7: started
-2023/08/28-09:57:26.235 1d90 Level-0 table #7: 990571 bytes OK
-2023/08/28-09:57:26.238 1d90 Delete type=0 #4
-2023/08/28-09:57:29.567 3a3c Level-0 table #9: started
-2023/08/28-09:57:29.627 3a3c Level-0 table #9: 1344797 bytes OK
-2023/08/28-09:57:29.628 3a3c Delete type=0 #6
-2023/08/28-09:57:29.644 3a3c Compacting 1@0 + 1@1 files
-2023/08/28-09:57:29.811 3a3c Generated table #10@0: 47280 keys, 1926603 bytes
-2023/08/28-09:57:29.811 3a3c Compacted 1@0 + 1@1 files => 1926603 bytes
-2023/08/28-09:57:29.812 3a3c compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/08/28-09:57:33.892 4078 Level-0 table #12: started
-2023/08/28-09:57:33.938 4078 Level-0 table #12: 1138205 bytes OK
-2023/08/28-09:57:33.941 4078 Delete type=2 #7
-2023/08/28-09:57:33.941 4078 Delete type=0 #8
-2023/08/28-09:57:33.941 4078 Delete type=2 #9
-2023/08/28-09:57:34.028 3a3c Compacting 1@0 + 1@1 files
-2023/08/28-09:57:34.173 3a3c Generated table #13@0: 57285 keys, 2232468 bytes
-2023/08/28-09:57:34.192 3a3c Generated table #14@0: 5899 keys, 198562 bytes
-2023/08/28-09:57:34.192 3a3c Compacted 1@0 + 1@1 files => 2431030 bytes
-2023/08/28-09:57:34.192 3a3c compacted to: files[ 0 2 1 0 0 0 0 ]
-2023/08/28-09:57:39.036 4078 Level-0 table #16: started
-2023/08/28-09:57:39.078 4078 Level-0 table #16: 1154967 bytes OK
-2023/08/28-09:57:39.079 4078 Delete type=2 #10
-2023/08/28-09:57:39.079 4078 Delete type=0 #11
-2023/08/28-09:57:39.079 4078 Delete type=2 #12
-2023/08/28-09:57:39.601 3a3c Compacting 1@0 + 2@1 files
-2023/08/28-09:57:39.716 3a3c Generated table #17@0: 70493 keys, 2237119 bytes
-2023/08/28-09:57:39.748 3a3c Generated table #18@0: 13082 keys, 840055 bytes
-2023/08/28-09:57:39.748 3a3c Compacted 1@0 + 2@1 files => 3077174 bytes
-2023/08/28-09:57:39.750 3a3c compacted to: files[ 0 2 1 0 0 0 0 ]
-2023/08/28-09:57:39.750 3a3c Delete type=2 #13
-2023/08/28-09:57:39.750 3a3c Delete type=2 #14
-2023/08/28-09:57:39.750 3a3c Delete type=2 #16
-2023/08/28-09:57:54.435 4078 Level-0 table #20: started
-2023/08/28-09:57:54.484 4078 Level-0 table #20: 1129163 bytes OK
-2023/08/28-09:57:54.485 4078 Delete type=0 #15
-2023/08/28-09:57:54.489 4078 Compacting 1@0 + 2@1 files
-2023/08/28-09:57:54.632 4078 Generated table #21@0: 91305 keys, 2264137 bytes
-2023/08/28-09:57:54.729 4078 Generated table #22@0: 29850 keys, 1529612 bytes
-2023/08/28-09:57:54.729 4078 Compacted 1@0 + 2@1 files => 3793749 bytes
-2023/08/28-09:57:54.730 4078 compacted to: files[ 0 2 1 0 0 0 0 ]
-2023/08/28-09:57:54.731 4078 Delete type=2 #17
-2023/08/28-09:57:54.731 4078 Delete type=2 #18
-2023/08/28-09:57:54.731 4078 Delete type=2 #20
+2023/08/28-10:05:50.800 1520 Reusing MANIFEST C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/28-10:05:50.801 1520 Recovering log #19
+2023/08/28-10:05:51.035 1520 Reusing old log C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000019.log 
+2023/08/28-10:06:07.854 1520 Compacting 1@1 + 1@2 files
+2023/08/28-10:06:07.938 1520 Generated table #24@1: 22404 keys, 1698973 bytes
+2023/08/28-10:06:07.938 1520 Compacted 1@1 + 1@2 files => 1698973 bytes
+2023/08/28-10:06:07.939 1520 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/08/28-10:06:07.940 1520 Delete type=2 #5
+2023/08/28-10:06:07.940 1520 Delete type=2 #21
+2023/08/28-10:06:11.868 1b28 Level-0 table #26: started
+2023/08/28-10:06:11.916 1b28 Level-0 table #26: 1110468 bytes OK
+2023/08/28-10:06:11.918 1b28 Delete type=0 #19
+2023/08/28-10:06:12.084 1520 Compacting 1@0 + 1@1 files
+2023/08/28-10:06:12.376 1520 Generated table #27@0: 63822 keys, 2231116 bytes
+2023/08/28-10:06:12.384 1520 Generated table #28@0: 2767 keys, 66253 bytes
+2023/08/28-10:06:12.384 1520 Compacted 1@0 + 1@1 files => 2297369 bytes
+2023/08/28-10:06:12.384 1520 compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/08/28-10:06:12.385 1520 Delete type=2 #22
+2023/08/28-10:06:12.385 1520 Delete type=2 #26
+2023/08/28-10:06:12.610 1520 Compacting 1@1 + 1@2 files
+2023/08/28-10:06:12.735 1520 Generated table #29@1: 26420 keys, 2190717 bytes
+2023/08/28-10:06:12.842 1520 Generated table #30@1: 39412 keys, 1561749 bytes
+2023/08/28-10:06:12.842 1520 Compacted 1@1 + 1@2 files => 3752466 bytes
+2023/08/28-10:06:12.842 1520 compacted to: files[ 0 1 2 0 0 0 0 ]
+2023/08/28-10:06:12.843 1520 Delete type=2 #24
+2023/08/28-10:06:12.843 1520 Delete type=2 #27

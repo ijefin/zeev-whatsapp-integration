@@ -1,2 +1,3 @@
-2023/08/28-09:56:49.425 3b50 Creating DB C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\shared_proto_db\metadata since it was missing.
-2023/08/28-09:56:49.520 3b50 Reusing MANIFEST C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\shared_proto_db\metadata/MANIFEST-000001
+2023/08/28-10:05:50.005 215c Reusing MANIFEST C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\shared_proto_db\metadata/MANIFEST-000001
+2023/08/28-10:05:50.005 215c Recovering log #3
+2023/08/28-10:05:50.005 215c Reusing old log C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\shared_proto_db\metadata/000003.log 

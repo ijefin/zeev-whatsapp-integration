@@ -1,2 +1,3 @@
-2023/08/28-09:56:49.237 ff0 Creating DB C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\Sync Data\LevelDB since it was missing.
-2023/08/28-09:56:49.342 ff0 Reusing MANIFEST C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\Sync Data\LevelDB/MANIFEST-000001
+2023/08/28-10:05:49.916 1520 Reusing MANIFEST C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\Sync Data\LevelDB/MANIFEST-000001
+2023/08/28-10:05:49.916 1520 Recovering log #3
+2023/08/28-10:05:49.917 1520 Reusing old log C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\Sync Data\LevelDB/000003.log 

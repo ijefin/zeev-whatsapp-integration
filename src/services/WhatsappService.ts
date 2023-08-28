@@ -8,13 +8,13 @@ export default class WhatsappService {
   }
 
   async sendText(to: string, body: string) {
-    //553192310461@c.us
     await this.client.sendText(to, body);
   }
 
   private initialize() {
     const qr = (base64QrImg: string) => {
-      base64QrImg;
+      // Aqui você pode exibir o QR code para o usuário, por exemplo:
+      console.log("Escaneie o QR code para iniciar a sessão:", base64QrImg);
     };
 
     const status = (statusSession: string) => {
@@ -24,12 +24,22 @@ export default class WhatsappService {
     const start = (client: Whatsapp) => {
       this.client = client;
 
-      // this.sendText( "553192310461@c.us",
-      // "Olá Roberto! O código de confirmação é: *512455*")
+      // Agora que o cliente está inicializado, você pode chamar suas ações necessárias aqui.
+      // Por exemplo:
+      // this.sendText("553192310461@c.us", "Olá Roberto! O código de confirmação é: *512455*");
     };
 
-    create("Zeev Notificator", qr, status)
-      .then((client: any) => start(client))
-      .catch((err: any) => console.error(err));
+    // Tentar criar o cliente
+    const initializeClient = () => {
+      create("Zeev Notificator", qr, status)
+        .then((client: any) => start(client))
+        .catch((err: any) => {
+          console.error("Erro ao criar o cliente:", err);
+          console.log("Tentando reiniciar...");
+          initializeClient(); // Tentar criar novamente em caso de erro
+        });
+    };
+
+    initializeClient(); // Iniciar o processo de criação do cliente
   }
 }

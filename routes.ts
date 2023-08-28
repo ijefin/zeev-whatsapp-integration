@@ -2,10 +2,15 @@ import { Router } from "express";
 import cors from "cors";
 import DataController from "./src/controllers/DataController";
 import WhatsappService from "./src/services/WhatsappService";
+import path from "path";
 
 const sender = new WhatsappService();
 
 const routes = Router();
+
+module.exports = {
+  cacheDirectory: path.resolve(__dirname, ".cache", "puppeteer"),
+};
 
 const allowedOrigins = [
   "https://terrasabpms.zeev.it",

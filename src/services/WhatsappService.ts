@@ -30,9 +30,6 @@ export default class WhatsappService {
 
     create("Zeev Notificator", qr, status)
       .then((client: any) => start(client))
-      .catch((err: any) => {
-        console.log(err)
-        return
-      });
+      .catch((err: any) => console.log(err));
   }
 }

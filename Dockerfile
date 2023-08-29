@@ -24,7 +24,7 @@ COPY . .
 
 EXPOSE 3000
 
-CMD ["yarn", "dev", "--port", "$PORT"]
+CMD ["yarn", "dev"]
 
 
 # ... (parte anterior do Dockerfile)

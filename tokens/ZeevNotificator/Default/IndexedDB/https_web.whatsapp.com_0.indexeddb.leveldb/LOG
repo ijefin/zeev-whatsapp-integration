@@ -1,0 +1,49 @@
+2023/08/29-15:54:51.362 3a74 Creating DB C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2023/08/29-15:54:51.369 3a74 Reusing MANIFEST C:\Users\Lenovo\Desktop\zeev-whatsapp-integration\tokens\ZeevNotificator\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/08/29-15:54:51.446 13f4 Level-0 table #5: started
+2023/08/29-15:54:51.451 13f4 Level-0 table #5: 7386 bytes OK
+2023/08/29-15:54:51.452 13f4 Delete type=0 #3
+2023/08/29-15:54:51.453 13f4 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/08/29-15:54:53.346 13f4 Level-0 table #7: started
+2023/08/29-15:54:53.349 13f4 Level-0 table #7: 18315 bytes OK
+2023/08/29-15:54:53.351 13f4 Delete type=0 #4
+2023/08/29-15:54:53.351 13f4 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/08/29-15:55:49.018 2aac Level-0 table #9: started
+2023/08/29-15:55:49.092 2aac Level-0 table #9: 986268 bytes OK
+2023/08/29-15:55:49.097 2aac Delete type=0 #6
+2023/08/29-15:55:49.607 2aac Compacting 1@0 + 1@1 files
+2023/08/29-15:55:49.717 2aac Generated table #10@0: 27866 keys, 713686 bytes
+2023/08/29-15:55:49.717 2aac Compacted 1@0 + 1@1 files => 713686 bytes
+2023/08/29-15:55:49.722 2aac compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/08/29-15:55:49.723 2aac Delete type=2 #7
+2023/08/29-15:55:49.723 2aac Delete type=2 #9
+2023/08/29-15:55:54.351 2aac Level-0 table #12: started
+2023/08/29-15:55:54.427 2aac Level-0 table #12: 1363795 bytes OK
+2023/08/29-15:55:54.428 2aac Delete type=0 #8
+2023/08/29-15:55:54.434 2aac Compacting 1@0 + 1@1 files
+2023/08/29-15:55:54.596 2aac Generated table #13@0: 47041 keys, 1955397 bytes
+2023/08/29-15:55:54.596 2aac Compacted 1@0 + 1@1 files => 1955397 bytes
+2023/08/29-15:55:54.598 2aac compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/08/29-15:55:59.385 13f4 Level-0 table #15: started
+2023/08/29-15:55:59.455 13f4 Level-0 table #15: 1163262 bytes OK
+2023/08/29-15:55:59.456 13f4 Delete type=2 #10
+2023/08/29-15:55:59.456 13f4 Delete type=0 #11
+2023/08/29-15:55:59.456 13f4 Delete type=2 #12
+2023/08/29-15:55:59.582 2aac Compacting 1@0 + 1@1 files
+2023/08/29-15:55:59.779 2aac Generated table #16@0: 57971 keys, 2231512 bytes
+2023/08/29-15:55:59.794 2aac Generated table #17@0: 6471 keys, 234907 bytes
+2023/08/29-15:55:59.794 2aac Compacted 1@0 + 1@1 files => 2466419 bytes
+2023/08/29-15:55:59.795 2aac compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/08/29-15:56:01.804 2aac Level-0 table #19: started
+2023/08/29-15:56:01.846 2aac Level-0 table #19: 1130802 bytes OK
+2023/08/29-15:56:01.847 2aac Delete type=2 #13
+2023/08/29-15:56:01.847 2aac Delete type=0 #14
+2023/08/29-15:56:01.847 2aac Delete type=2 #15
+2023/08/29-15:56:01.852 2aac Compacting 1@0 + 2@1 files
+2023/08/29-15:56:01.963 2aac Generated table #20@0: 72291 keys, 2240241 bytes
+2023/08/29-15:56:02.025 2aac Generated table #21@0: 13808 keys, 1004359 bytes
+2023/08/29-15:56:02.025 2aac Compacted 1@0 + 2@1 files => 3244600 bytes
+2023/08/29-15:56:02.026 2aac compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/08/29-15:56:02.026 2aac Delete type=2 #16
+2023/08/29-15:56:02.026 2aac Delete type=2 #17
+2023/08/29-15:56:02.026 2aac Delete type=2 #19

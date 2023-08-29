@@ -10,7 +10,7 @@
   },
   "scripts": {
     "dev": "tsx ./src/app.ts",
-    "build": "tsup ./src"
+    "build": "tsup ./src/app.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",

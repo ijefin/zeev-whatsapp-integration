@@ -16,7 +16,7 @@ export default class WhatsappService {
   private async initialize() {
     try {
       this.browser = await puppeteer.launch({
-        // executablePath: "/usr/local/bin/chromium-browser", // Atualize com o caminho correto
+        executablePath: "/usr/local/bin/chromium-browser", // Atualize com o caminho correto
         args: ["--no-sandbox", "--disable-setuid-sandbox"],
       });
 

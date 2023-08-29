@@ -14,7 +14,9 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 # Instale o Chromium separadamente
 RUN apt-get update && apt-get install -y chromium
 
-ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
+# ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
+#   executablePath: process.env.PUPPETEER_EXECUTABLE_PATH,
+
 
 # ... (parte posterior do Dockerfile)
 

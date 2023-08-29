@@ -1,8 +1,5 @@
 FROM node:18
 
-# Create app directory
-WORKDIR ./dist/app.js
-
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 # where available (npm@5+)
@@ -19,14 +16,13 @@ RUN apt-get update && apt-get install -y chromium
 
 # ... (parte posterior do Dockerfile)
 
-RUN npm ci --omit=dev
 # If you are building your code for production
 # RUN npm ci --omit=dev
 COPY . .
 
 EXPOSE 3000
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
-CMD [ "node", "./dist/app.js" ]
+
+CMD [ "yarn", "dev" ]
 
 # ... (parte anterior do Dockerfile)
 

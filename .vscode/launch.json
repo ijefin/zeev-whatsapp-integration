@@ -12,7 +12,7 @@
             "image": "zeev-whatsapp-integration",
             "service": {
                 "name": "zeev-whatsapp-integration",
-                "containerPort": 8080,
+                "containerPort": 3000,
                 "resources": {
                     "limits": {
                         "memory": "256Mi"

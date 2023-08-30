@@ -1,4 +1,3 @@
-import express from "express";
 import puppeteer, { Browser } from "puppeteer";
 import { Whatsapp, create } from "venom-bot"
 
@@ -16,11 +15,6 @@ export default class WhatsappService {
 
   private async initialize() {
     try {
-      this.browser = await puppeteer.launch({
-        executablePath: "/usr/bin/chromium", // Atualize com o caminho correto
-        args: ["--no-sandbox", "--disable-setuid-sandbox"],
-      });
-
       const qr = (base64QrImg: string) => {
       };
 
@@ -35,7 +29,9 @@ export default class WhatsappService {
         // "Olá Roberto! O código de confirmação é: *512455*")
       };
 
-      create("Zeev Notificator", qr, status)
+      create("Zeev Notificator", qr, status, {
+        browser: this.browser, // Passa o navegador Puppeteer
+      })
         .then((client: Whatsapp) => start(client))
         .catch((err: any) => console.log(err));
     } catch (error) {

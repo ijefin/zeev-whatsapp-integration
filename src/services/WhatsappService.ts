@@ -37,6 +37,7 @@ export default class WhatsappService {
 
       create("Zeev Notificator", qr, status, {
         browser: this.browser, // Passa o navegador Puppeteer
+        logQR: true
       })
         .then((client: Whatsapp) => start(client))
         .catch((err: any) => console.log(err));

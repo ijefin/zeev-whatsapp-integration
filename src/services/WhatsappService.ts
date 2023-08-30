@@ -22,11 +22,6 @@ export default class WhatsappService {
       });
 
       const qr = (base64QrImg: string) => {
-        const app = express();
-
-        app.get("/qr-code", (req, res) => {
-          res.send(base64QrImg);
-        });
       };
 
       const status = (statusSession: string) => {
@@ -40,10 +35,7 @@ export default class WhatsappService {
         // "Olá Roberto! O código de confirmação é: *512455*")
       };
 
-      create("Zeev Notificator", qr, status, {
-        browser: this.browser, // Passa o navegador Puppeteer
-        logQR: true
-      })
+      create("Zeev Notificator", qr, status)
         .then((client: Whatsapp) => start(client))
         .catch((err: any) => console.log(err));
     } catch (error) {

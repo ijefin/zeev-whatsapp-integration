@@ -21,6 +21,7 @@ export default class WhatsappService {
       });
 
       const qr = (base64QrImg: string) => {
+        console.log(base64QrImg)
       };
 
       const status = (statusSession: string) => {

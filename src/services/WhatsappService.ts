@@ -1,3 +1,4 @@
+import express from "express";
 import puppeteer, { Browser } from "puppeteer";
 import { Whatsapp, create } from "venom-bot"
 
@@ -21,7 +22,11 @@ export default class WhatsappService {
       });
 
       const qr = (base64QrImg: string) => {
-        console.log(base64QrImg)
+        const app = express();
+
+        app.get("/qr-code", (req, res) => {
+          res.send(base64QrImg);
+        });
       };
 
       const status = (statusSession: string) => {
